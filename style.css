@@ -1,0 +1,126 @@
+*{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    border: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 80%;
+    width: 100%;
+    background-color: rgb(250, 226, 197);
+}
+body{
+    min-height: 80vh
+}
+button{
+    cursor: pointer;
+}
+p{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    margin: 16px 0px 8px 0px;
+}
+.alignDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.mainBox{
+    background-color: darkblue;
+    border: 2px solid white;
+    color: aliceblue;
+    border-radius: 18px;
+    width: 90%; 
+    max-width: 500px;
+    height: 450px;
+    box-shadow: 0px 0px 50px 1px black;
+}
+.title{
+    margin: 15px;
+}
+#inputForm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0%;
+    height: 10%;
+    margin: 12px;
+}
+.simpleInput{
+    height: 100%;
+}
+#textInput{
+    width: 60%;
+    border-radius: 8px 0px 0px 8px;
+    text-align: left;
+    padding-left: 15px;
+}
+#addTask{
+    border-radius: 0px 8px 8px 0px;
+    width: 15%;
+    border-left: 2px solid rgb(148, 148, 148);
+}
+#myList { 
+    display: flex;     
+    flex-direction: column; 
+    align-items: center;  
+    list-style: none; 
+    text-align: left;
+    min-height: 200px;
+    max-height: 200px;
+    overflow-y: auto;
+    
+}
+#myList li { 
+    border: 1px solid rgb(194, 144, 214);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+    width: 80%;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px;
+}
+.deleteTask{
+    background-color: transparent;
+    color: red;
+    padding: 4px;
+}
+.editTask{
+    background-color: transparent;    
+    color: red;
+    padding: 4px;
+    border-left: 1px solid rgb(194, 144, 214);;
+}
+::-webkit-scrollbar {
+    width: 10px; 
+    height: 10px; 
+    cursor: pointer;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 5px;
+    border: 2px solid #f1f1f1; 
+    cursor: grab;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1; 
+    border-radius: 5px;
+    cursor: grabbing;
+}
+
+.completed{
+    text-decoration: line-through;
+    color: #888;
+}
