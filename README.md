@@ -1,55 +1,62 @@
 # ✅ To-Do List Application
 
-A simple and responsive web application designed for managing daily tasks.
+A simple and responsive web application for managing daily tasks — with persistent storage so your tasks survive page reloads.
 
-Built to demonstrate fundamental knowledge of **DOM manipulation**, **state management**, and **data persistence** in the browser.
+> **Live Demo:** [to-do-list-beta-orpin-28.vercel.app](https://to-do-list-beta-orpin-28.vercel.app)
 
 ---
 
 ## 🚀 Technologies Used
 
 | Technology | Primary Purpose |
-| :--- | :--- |
-| **HTML5** | Core structure of the user interface. |
-| **CSS3** | Modern styling (Flexbox/Grid) and clean design. |
-| **JavaScript (ES6+)** | Main application logic. |
+|---|---|
+| **HTML5** | Core structure of the user interface |
+| **CSS3** | Modern styling (Flexbox/Grid) and clean design |
+| **JavaScript (ES6+)** | Main application logic and DOM manipulation |
 
 ---
 
-## ✨ Key Features
+## ✨ Features
 
-* ➕ **Add Tasks:** Quickly add new items via the input field.
-* ✔️ **Mark Complete:** Toggle tasks as finished/completed.
-* 🗑️ **Delete:** Remove individual tasks.
-* 💾 **Data Persistence:** Tasks are stored locally using **`localStorage`**, ensuring data remains saved after page reloads.
+- ➕ **Add Tasks** — Quickly add new items via input field or pressing Enter
+- ✔️ **Mark Complete** — Toggle tasks as finished with a checkbox
+- ✏️ **Edit Tasks** — Rename any existing task
+- 🗑️ **Delete Tasks** — Remove individual tasks
+- 💾 **Data Persistence** — Tasks saved in `localStorage`, survives page reloads
+- 📊 **Live Counter** — Shows completed vs uncompleted tasks in real time
 
 ---
 
 ## ⚙️ How to Run Locally
 
-To get this application running on your own machine:
+### 1. Clone the repository
 
-1.  **Clone the Repository:**
-    ```bash
-    git clone [Your GitHub Repository URL]
-    ```
-2.  **Navigate to the Directory:**
-    ```bash
-    cd [project-directory-name]
-    ```
-3.  **Open `index.html`:**
-    Open the `index.html` file directly in your web browser.
+```bash
+git clone https://github.com/MironDragos/To-Do-List.git
+cd To-Do-List
+```
+
+### 2. Open in browser
+
+```bash
+open index.html
+```
+
+No build step needed — just open `index.html` directly in your browser.
 
 ---
 
-## 🎯 Future Plans (Next Steps)
+## 🔮 Future Improvements
 
-* [ ] Add filtering options: Display only "Active" or "Completed" tasks.
-* [ ] Enable editing of existing tasks.
-* [ ] Reimplement using **React** for more advanced state management.
+- Filter tasks by status (Active / Completed)
+- Drag and drop to reorder tasks
+- Reimplement using **React** for advanced state management
+- Due dates and priority levels
 
 ---
 
 ## 👤 Author
 
-* **Dragos Miron** - https://github.com/MironDragos
+**Dragos Miron**
+- GitHub: [@MironDragos](https://github.com/MironDragos)
+- LinkedIn: [linkedin.com/in/dragosmiron](https://linkedin.com/in/dragosmiron)
